@@ -3056,6 +3056,11 @@ device_parsers:
     device_replacement: 'Huawei Honor $1'
     brand_replacement: 'Huawei'
     model_replacement: 'Honor $1'
+  - regex: 'HarmonyOS\s?(\d*).?(\d*).?(\d*)'
+    os_replacement: 'Harmony'
+    os_v1_replacement: '$1'
+    os_v2_replacement: '$2'
+    os_v3_replacement: '$3'
 
   #########
   # HTC
